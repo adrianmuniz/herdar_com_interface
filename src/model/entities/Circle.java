@@ -1,6 +1,6 @@
 package model.entities;
 
-import java.awt.Color;
+import model.enums.Color;
 
 public class Circle extends Shape {
 

@@ -1,13 +1,13 @@
 package model.entities;
 
-import java.awt.Color;
+import model.enums.Color;
 
-public class Retangle extends Shape {
+public class Rectangle extends Shape {
 
 	private Double width;
 	private Double heigth;
 	
-	public Retangle(Color color, Double width, Double heigth) {
+	public Rectangle(Color color, Double width, Double heigth) {
 		super(color);
 		this.width = width;
 		this.heigth = heigth;
